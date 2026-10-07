@@ -1,0 +1,72 @@
+# Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+out/
+**/out/
+
+# Gradle wrapper (keep jar + properties, ignore local dists)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+.gradle-wrapper/
+~/.gradle/
+
+# Java / Kotlin compiled output
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# Minecraft / Fabric Loom
+run/
+**/run/
+remappedJars/
+.mixin.out/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - NetBeans
+nbproject/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local AI / agent tools
+.kilo/
+.kilocode/
+.opencode/
+.cursor/
+.cline/
+
+# Temp
+*.tmp
+*.bak
+*.swp
+*~

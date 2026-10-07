@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "cursorkeep",
+  "version": "${version}",
+  "name": "cursorkeep",
+  "description": "Keeps the mouse cursor position across GUI open/close transitions.",
+  "authors": [
+    {
+      "name": "Minipech"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/cursorkeep/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.cursorkeep.CursorPositionSaverMod"
+    ]
+  },
+  "mixins": [
+    "cursorkeep.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~${minecraft_version}"
+  }
+}
